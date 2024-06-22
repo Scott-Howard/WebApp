@@ -10,7 +10,7 @@ def add_todo():
     st.session_state["new_todo"] = ""
 
 st.title("My To do app")
-st.subheader("This is my very baisic todo app")
+st.subheader("This is my very basic todo app")
 st.write("This is to improve your productivity")
 
 for index, todo in enumerate(todos):
